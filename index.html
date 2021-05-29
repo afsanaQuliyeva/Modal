@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modal</title>
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <img src="https://images.unsplash.com/photo-1597626133663-53df9633b799?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img rounded">  
+  <button data-modal-target="#catModal" >More about kitten</button>
+
+  <div class="modal" id="catModal">
+    <div class="modal-header">
+      <span class="title">Little Cat</span> 
+      <button class="modal-close-btn">&times;</button>
+    </div>
+    <div class="modal-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia vero unde sapiente, architecto repellat a illo tenetur dolore nisi, corporis repellendus assumenda nihil alias sunt ipsa quis! Consequatur, voluptate.
+      Commodi in mollitia et quia non, ullam cum odio dicta voluptates cumque doloribus alias nam accusantium voluptatum sapiente excepturi, numquam repellendus autem distinctio! Molestiae soluta quae at et odio facere.
+      Aperiam officia a, velit quisquam voluptates numquam. Ipsam, eius. Omnis sed expedita ad, quibusdam rem voluptates? Omnis molestias aperiam delectus qui ipsam doloribus quo iure iusto, ex perferendis rerum excepturi!
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+</body>
+</html>
