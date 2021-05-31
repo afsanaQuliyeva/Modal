@@ -35,7 +35,7 @@ button[data-modal-target] {
 }
 
 /*active*/
-.active {
+.modal.active {
   transform: translate(-50%, -50%) scale(1);
 }
 
@@ -67,4 +67,9 @@ button[data-modal-target] {
   background-color: rgba(0, 0, 0, .3);
   opacity: 0;
   pointer-events: none;
+}
+
+.overlay.active {
+  pointer-events: all;
+  opacity: 1;
 }
